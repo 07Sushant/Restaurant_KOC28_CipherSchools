@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            background-image: url("assets/img/wave.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: bottom;
+            scrollbar-width: thin;
+            scrollbar-color: #DA291C #FFC72C;
+        }
+        
+        * {
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .container {
+            clear: both;
+            overflow: auto;
+            padding-left: 30px;
+            background-color: #DA291C;
+            overflow: hidden;
+            width: 100%;
+            height: 60px;
+        }
+        
+        .logo img {
+            float: left;
+        }
+        
+        ul li {
+            display: inline-block;
+            padding: 10px;
+            font-size: 22px;
+            font-family: raleway;
+            color: #fff;
+            padding-right: 30px;
+        }
+        
+        ul li:hover {
+            color: #FFC72C;
+            font-size: 23px;
+            text-decoration: underline;
+        }
+        
+        .images {
+            padding: 30px;
+            padding-left: 100px;
+            padding-top: 100px;
+        }
+        
+        .img {
+            padding: 10px;
+            border-radius: 12px;
+            box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+        }
+        
+        .form {}
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        .column2 {
+            float: left;
+            width: 50%;
+            margin: 0;
+            background-color: #fff;
+            height: 653px;
+            padding-bottom: 30px;
+            padding-top: 30px;
+        }
+        
+        .column3 {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 653px;
+        }
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        .column4 {
+            float: left;
+            width: 30%;
+            padding: 10px;
+        }
+        
+        .column5 {
+            float: left;
+            width: 70%;
+            padding: 10px;
+        }
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        .linkk {
+            color: #000;
+            text-decoration: none;
+            font-family: 'Courier New', ;
+            font-size: 16px;
+        }
+        
+        .order {
+            float: right;
+            background-color: #DA291C;
+            color: #FFC72C;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 12px;
+        }
+        
+        input {
+            width: 300px;
+            border: none;
+            background-color: rgb(255, 255, 255);
+            padding: 8px;
+            border-bottom: 1px #000 solid;
+        }
+        
+        input:hover {
+            width: 300px;
+            border: none;
+            background-color: rgb(255, 255, 255);
+            padding: 8px;
+            border-bottom: 1px rgb(214, 214, 214) solid;
+        }
+        
+        input[Type=submit] {
+            width: 80px;
+            background-color: #DA291C;
+            color: #FFC72C;
+            border-radius: 12px;
+            border: none;
+            float: right;
+        }
+        
+        iframe {
+            box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.24), 0 6.7px 5.3px rgba(0, 0, 0, 0.247), 0 12.5px 10px rgba(0, 0, 0, 0.171), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+            border-radius: 12px;
+        }
+        
+        .backgroundd {
+            background: url(https://c.pxhere.com/photos/99/f6/background_food_tasty_olives_wooden_background_cooking_plate_kitchen-1369813.jpg!d);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top;
+            height: 500px;
+            background-attachment: fixed;
+        }
+        
+        .titleee {
+            background-color: rgba(0, 0, 0, 0.534);
+            height: 500px;
+        }
+        
+        .titlee {
+            margin-left: 80px;
+            opacity: 1.0;
+        }
+        
+        .headtxtx {
+            margin-top: 0;
+            font-size: 82px;
+            padding-top: 60px;
+            color: #fff;
+            opacity: 1.0;
+        }
+        
+        .headtxtxX {
+            margin-top: 0;
+            font-size: 40px;
+            color: #fff;
+            opacity: 1.0;
+        }
+        
+        .welco {
+            text-align: center;
+            line-height: 10px;
+        }
+        
+        .off1 {
+            font-size: 25px;
+            background-color: #FFC72C;
+            padding: 10px;
+            text-transform: uppercase;
+            border-right: 30px #fff solid;
+        }
+        
+        .menu {
+            text-align: center;
+            padding: 20px;
+            padding-bottom: 0px;
+        }
+        
+        img {
+            border-radius: 12px;
+            width: auto;
+        }
+        
+        .fomt {
+            width: 300px;
+            text-align: left;
+            padding: 5px;
+        }
+        
+        input {
+            width: 180px;
+        }
+        
+        form {
+            background-color: #FFC72C;
+            width: 400px;
+            border-radius: 20px;
+            height: 510px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="backgroundd">
+        <div class="titleee">
+            <div class="titlee">
+                <h3 class="headtxtx">TSA RESTUARANT</h3>
+                <h4 class="headtxtxX">Contact Us</h4>
+                <!--<img src="https://logos.textgiraffe.com/logos/logo-name/Tamanna-designstyle-smoothie-m.png" width="300" alt="">-->
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="container">
+
+        <center>
+            <nav>
+                <ul>
+                    <li> Home </li>
+                    <li>About</li>
+                    <li>Menu</li>
+                    <li>Gallery</li>
+                    <li>Healthy Tips</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </center>
+
+    </div>
+
+
+
+    <center>
+        <form action="">
+            <div>
+                <h2 class="fomt">Name:</h2>
+            </div>
+            <div>
+                <input type="text" placeholder="Your Name">
+            </div>
+
+            <div>
+                <h2 class="fomt">Email:</h2>
+            </div>
+            <div>
+                <input type="email" placeholder="Your Email">
+            </div>
+            <div>
+                <h2 class="fomt">Message:</h2>
+            </div>
+            <div>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+
+            <div style="padding-right: 30px;">
+                <br>
+                <input type="submit" value="Send" name="" id="">
+            </div>
+
+        </form>
+    </center>
+
+
+    <footer style="height: 130px; text-align: center; padding-top: 10px; ">
+
+        <p>Developed With <i class="fa fa-heart " aria-hidden="true " style="color:#DA291C; "></i> by <a href="https://www.linkedin.com/in/03prashantpk/ " style="text-decoration: none ; color:#DA291C ">Prashant
+                Kumar</a>
+        </p>
+    </footer>
+
+
+
+</body>
+
+</html>
